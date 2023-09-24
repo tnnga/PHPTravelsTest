@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test">
+    <test name="Sample Test">
+        <classes>
+            <class name="com.nnga.testcases.LoginTest">
+                <methods>
+                    <include name="ElementTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
